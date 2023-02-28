@@ -1,4 +1,15 @@
 import Head from "next/head";
+import { BsFillMoonStarsFill } from "react-icons/bs";
+import {
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillGithub,
+} from "react-icons/ai";
+import Image from "next/image";
+import deved from "../public/dev-ed-wave.png";
+import design from "../public/design.png";
+import code from "../public/code.png";
+import consulting from "../public/consulting.png";
 
 export default function Home() {
   return (
@@ -9,9 +20,108 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <section className=" bg-blue-700 min-h-screen">
-          <h1>Hello</h1>
+      <main className="bg-white px-10">
+        <section className="min-h-screen ">
+          <nav className="py-10 mb-12 flex justify-between">
+            <h1 className="text-xl font-burtons">developedbyed</h1>
+            <ul className="flex items-center">
+              <li>
+                <BsFillMoonStarsFill className="cursor-pointer te" />
+              </li>
+              <li>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+                  href="#"
+                >
+                  Resume
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <div className="hero text-center p-10">
+            <h2 className="text-5xl py-2 text-teal-500 font-medium">
+              Khalil Merine
+            </h2>
+            <h3 className="text-2xl py-2">Developer and designer.</h3>
+            <p className="text-md py-5 leading-8 text-gray-800">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              quos voluptatem architecto facere cupiditate commodi aspernatur
+              sequi error ab? Quos libero molestiae rem excepturi distinctio
+              facere temporibus laborum eveniet hic.
+            </p>
+          </div>
+
+          <div className="socials flex text-5xl justify-center gap-16 py-3 text-gray-600">
+            <AiFillLinkedin />
+            <AiFillGithub />
+            <AiFillTwitterCircle />
+          </div>
+
+          <div className="main-image relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
+            <Image alt="Image" src={deved} layout="fill" objectFit="cover" />
+          </div>
+        </section>
+
+        <section>
+          <div className="Services">
+            <h3 className="text-3xl py-1">Service I offer</h3>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repellendus <span className="text-teal-500">cumque</span> nihil
+              animi, nesciunt provident quos soluta. Modi amet aut similique.
+            </p>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. animi,
+              nesciunt provident quos soluta. Modi amet aut similique.
+            </p>
+          </div>
+
+          <div className="images">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+              <Image alt="Image" src={design} />
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+                Beautiful Designs
+              </h3>
+              <p className="py-2">
+                Creating elegant designs suited for your needs following core
+                design theory.
+              </p>
+              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Illustrator</p>
+              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 py-1">Indesign</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+              <Image alt="Image" src={code} />
+              <h3 className="text-lg font-medium pt-8 pb-2 ">
+                Code your dream project
+              </h3>
+              <p className="py-2">
+                Do you have an idea for your next great website? Let's make it a
+                reality.
+              </p>
+              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Illustrator</p>
+              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 py-1">Indesign</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+              <Image className="flex justify-center" alt="" src={consulting} />
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
+              <p className="py-2">
+                Are you interested in feedback for your current project? I can
+                give you tips and tricks to level it up.
+              </p>
+              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Illustrator</p>
+              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 py-1">Indesign</p>
+            </div>
+          </div>
         </section>
       </main>
     </>
