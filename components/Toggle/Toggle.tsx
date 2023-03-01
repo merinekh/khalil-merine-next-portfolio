@@ -6,7 +6,7 @@ function Toggle({ setIsMenuOpen, handleMenuToggle }: any) {
       className="fixed inset-0 bg-gray-900 bg-opacity-50 z-50"
       id="mobile-menu"
     >
-      <div className="fixed left-0 flex h-full w-1/2 bg-white border-r border-gray-200 py-2.5">
+      <div className="fixed left-0 flex justify-center h-full w-1/2 bg-white border-r border-gray-200 py-2.5">
         <ul className="flex flex-col justify-center space-y-4 p-4">
           <li>
             <a
