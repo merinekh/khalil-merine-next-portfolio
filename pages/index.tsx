@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { BsFillMoonStarsFill } from "react-icons/bs";
 import {
   AiFillVideoCamera,
   AiFillLinkedin,
@@ -18,9 +17,16 @@ import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 import { useState } from "react";
+import Header from "@/components/Header/Header";
+import Toggle from "@/components/Toggle/Toggle";
 
 export default function Home() {
   const [darkMode, setdarkMode] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <>
       <div className={darkMode ? "dark" : ""}>
@@ -30,30 +36,26 @@ export default function Home() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <main className="bg-white px-5 md:px-20 dark:bg-gray-900">
+        <main
+          className="bg-white px-5 md:px-20 dark:bg-gray-900"
+          onClick={isMenuOpen ? handleMenuToggle : () => {}}
+        >
           <section className="min-h-screen ">
-            <nav className="py-10 mb-1 flex justify-between">
-              <h1 className="text-xl font-burtons dark:text-white">
-                developedbyKM
-              </h1>
-              <ul className="flex items-center">
-                <li>
-                  <BsFillMoonStarsFill
-                    className="cursor-pointer te dark:text-white"
-                    onClick={() => setdarkMode(!darkMode)}
-                  />
-                </li>
-                <li>
-                  <a
-                    className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                    href="#"
-                  >
-                    Resume
-                  </a>
-                </li>
-              </ul>
-            </nav>
-
+            {isMenuOpen ? (
+              <Toggle
+                setIsMenuOpen={setIsMenuOpen}
+                handleMenuToggle={handleMenuToggle}
+              ></Toggle>
+            ) : (
+              ""
+            )}
+            <Header
+              darkMode={darkMode}
+              setdarkMode={setdarkMode}
+              isMenuOpen={isMenuOpen}
+              setIsMenuOpen={setIsMenuOpen}
+              handleMenuToggle={handleMenuToggle}
+            ></Header>
             <div className="hero text-center p-1">
               <h2 className="text-5xl py-2 text-teal-500 font-medium md:text-6xl">
                 Khalil Merine
@@ -77,7 +79,6 @@ export default function Home() {
                 complex problems. Let's build something great together!
               </p>
             </div>
-
             <div className="socials flex text-5xl justify-center gap-16 py-3 text-gray-600 dark:text-teal-500 ">
               <a href="https://www.linkedin.com/in/khalil-merine/">
                 <AiFillLinkedin />
