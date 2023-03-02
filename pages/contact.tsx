@@ -80,7 +80,7 @@ export default function contact() {
       <div className="flex flex-row items-center justify-start">
         <button
           type="submit"
-          className="px-10 mt-8 py-2 bg-gradient-to-r from-cyan-500 to-teal-500 text-gray-50 text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg flex flex-row items-center"
+          className="px-10 mt-8 py-2 bg-gradient-to-r from-cyan-500 to-teal-500 text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg flex flex-row items-center"
         >
           Submit
         </button>
