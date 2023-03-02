@@ -59,7 +59,7 @@ function NavBar({ darkMode, setdarkMode, isMenuOpen, handleMenuToggle }: any) {
                 className={
                   router.pathname == "/"
                     ? "text-teal-500 " +
-                      "block py-2 pl-3 pr-4 text-gray-700 bg-teal-500 rounded md:bg-transparent md:p-0 dark:text-white"
+                      "block py-2 pl-3 pr-4 text-gray-700 bg-teal-500 rounded md:bg-transparent md:p-0 "
                     : "block py-2 pl-3 pr-4 text-gray-700 bg-teal-500 rounded md:bg-transparent md:p-0 dark:text-white"
                 }
                 aria-current="page"
@@ -73,7 +73,7 @@ function NavBar({ darkMode, setdarkMode, isMenuOpen, handleMenuToggle }: any) {
                 className={
                   router.pathname == "/about"
                     ? "text-teal-500 " +
-                      "block py-2 pl-3 pr-4 text-gray-700 bg-teal-500 rounded md:bg-transparent md:p-0 dark:text-white"
+                      "block py-2 pl-3 pr-4 text-gray-700 bg-teal-500 rounded md:bg-transparent md:p-0 "
                     : "block py-2 pl-3 pr-4 text-gray-700 bg-teal-500 rounded md:bg-transparent md:p-0 dark:text-white"
                 }
               >
@@ -86,7 +86,7 @@ function NavBar({ darkMode, setdarkMode, isMenuOpen, handleMenuToggle }: any) {
                 className={
                   router.pathname == "/services"
                     ? "text-teal-500 " +
-                      "block py-2 pl-3 pr-4 text-gray-700 bg-teal-500 rounded md:bg-transparent md:p-0 dark:text-white"
+                      "block py-2 pl-3 pr-4 text-gray-700 bg-teal-500 rounded md:bg-transparent md:p-0 "
                     : "block py-2 pl-3 pr-4 text-gray-700 bg-teal-500 rounded md:bg-transparent md:p-0 dark:text-white"
                 }
               >
@@ -99,7 +99,7 @@ function NavBar({ darkMode, setdarkMode, isMenuOpen, handleMenuToggle }: any) {
                 className={
                   router.pathname == "/portfolio"
                     ? "text-teal-500 " +
-                      "block py-2 pl-3 pr-4 text-gray-700 bg-teal-500 rounded md:bg-transparent md:p-0 dark:text-white"
+                      "block py-2 pl-3 pr-4 text-gray-700 bg-teal-500 rounded md:bg-transparent md:p-0 "
                     : "block py-2 pl-3 pr-4 text-gray-700 bg-teal-500 rounded md:bg-transparent md:p-0 dark:text-white"
                 }
               >
@@ -112,7 +112,7 @@ function NavBar({ darkMode, setdarkMode, isMenuOpen, handleMenuToggle }: any) {
                 className={
                   router.pathname == "/contact"
                     ? "text-teal-500 " +
-                      "block py-2 pl-3 pr-4 text-gray-700 bg-teal-500 rounded md:bg-transparent md:p-0 dark:text-white"
+                      "block py-2 pl-3 pr-4 text-gray-700 bg-teal-500 rounded md:bg-transparent md:p-0"
                     : "block py-2 pl-3 pr-4 text-gray-700 bg-teal-500 rounded md:bg-transparent md:p-0 dark:text-white"
                 }
               >
