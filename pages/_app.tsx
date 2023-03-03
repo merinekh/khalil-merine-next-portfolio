@@ -8,7 +8,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 export default function App({ Component, pageProps, router }: AppProps) {
-  const [darkMode, setdarkMode] = useState(false);
+  const [darkMode, setdarkMode] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleMenuToggle = () => {
