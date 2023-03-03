@@ -11,16 +11,22 @@ import web6 from "../../public/web6.png";
 export default function Project() {
   return (
     <>
-      <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-        <div className="relative basis-1/3 flex-1">
+      <div className="flex flex-col gap-10 py-10 md:flex-row flex-wrap ">
+        <div className="relative basis-1/3 flex-1 h-fit">
           <a className="absolute rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
-            <h1 className="tracking-wider">Title</h1>
-            <p className="mx-auto">Description</p>
+            <h1 className="tracking-wider p-1 font-semibold">
+              Air Canada Industry Project
+            </h1>
+            <p className="mx-auto p-2 mb-2 text-sm">
+              I collaborated with a team of UX designers and data scientists to
+              build a pop-up and preference form, enhancing customer experience
+              for a diverse user base and increasing engagement.
+            </p>
             <button
               type="button"
-              className=" items-center bg-gradient-to-r from-cyan-500 to-teal-500 text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-teal-500 dark:focus:ring-blue-800"
+              className="m-2 items-center bg-gradient-to-r from-cyan-500 to-teal-500 text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-teal-500 dark:focus:ring-blue-800"
             >
-              Resume
+              Take A Look at MyCode
             </button>{" "}
           </a>
           <a href="#" className="relative">
@@ -34,15 +40,15 @@ export default function Project() {
             </div>
           </a>
         </div>
-        <div className="relative basis-1/3 flex-1">
-          <a className="absolute rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
-            <h1 className="tracking-wider">Title</h1>
-            <p className="mx-auto">Description</p>
+        <div className="relative basis-1/3 flex-1 h-fit">
+          <a className="absolute rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300 md:">
+            <h1 className="tracking-wider p-1 font-semibold">Title</h1>
+            <p className="mx-auto p-2 mb-2 text-sm">Description</p>
             <button
               type="button"
-              className=" items-center bg-gradient-to-r from-cyan-500 to-teal-500 text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-teal-500 dark:focus:ring-blue-800"
+              className="m-2 items-center bg-gradient-to-r from-cyan-500 to-teal-500 text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-teal-500 dark:focus:ring-blue-800"
             >
-              Resume
+              Take A Look at MyCode
             </button>{" "}
           </a>
           <a href="#" className="relative">
@@ -57,15 +63,15 @@ export default function Project() {
           </a>
         </div>
 
-        <div className="relative basis-1/3 flex-1">
+        <div className="relative basis-1/3 flex-1 h-fit">
           <a className="absolute rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
-            <h1 className="tracking-wider">Title</h1>
-            <p className="mx-auto">Description</p>
+            <h1 className="tracking-wider p-1 font-semibold">Title</h1>
+            <p className="mx-auto p-2 mb-2 text-sm">Description</p>
             <button
               type="button"
-              className=" items-center bg-gradient-to-r from-cyan-500 to-teal-500 text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-teal-500 dark:focus:ring-blue-800"
+              className="m-2 items-center bg-gradient-to-r from-cyan-500 to-teal-500 text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-teal-500 dark:focus:ring-blue-800"
             >
-              Resume
+              Take A Look at MyCode
             </button>{" "}
           </a>
           <a href="#" className="relative">
@@ -80,15 +86,15 @@ export default function Project() {
           </a>
         </div>
 
-        <div className="relative basis-1/3 flex-1">
+        <div className="relative basis-1/3 flex-1 h-fit">
           <a className="absolute rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
-            <h1 className="tracking-wider">Title</h1>
-            <p className="mx-auto">Description</p>
+            <h1 className="tracking-wider p-1 font-semibold">Title</h1>
+            <p className="mx-auto p-2 mb-2 text-sm">Description</p>
             <button
               type="button"
-              className=" items-center bg-gradient-to-r from-cyan-500 to-teal-500 text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-teal-500 dark:focus:ring-blue-800"
+              className="m-2 items-center bg-gradient-to-r from-cyan-500 to-teal-500 text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-teal-500 dark:focus:ring-blue-800"
             >
-              Resume
+              Take A Look at MyCode
             </button>{" "}
           </a>
           <a href="#" className="relative">
@@ -103,15 +109,15 @@ export default function Project() {
           </a>
         </div>
 
-        <div className="relative basis-1/3 flex-1">
+        <div className="relative basis-1/3 flex-1 h-fit">
           <a className="absolute rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
-            <h1 className="tracking-wider">Title</h1>
-            <p className="mx-auto">Description</p>
+            <h1 className="tracking-wider p-1 font-semibold">Title</h1>
+            <p className="mx-auto p-2 mb-2 text-sm">Description</p>
             <button
               type="button"
-              className=" items-center bg-gradient-to-r from-cyan-500 to-teal-500 text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-teal-500 dark:focus:ring-blue-800"
+              className="m-2 items-center bg-gradient-to-r from-cyan-500 to-teal-500 text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-teal-500 dark:focus:ring-blue-800"
             >
-              Resume
+              Take A Look at MyCode
             </button>{" "}
           </a>
           <a href="#" className="relative">
@@ -126,15 +132,15 @@ export default function Project() {
           </a>
         </div>
 
-        <div className="relative basis-1/3 flex-1">
+        <div className="relative basis-1/3 flex-1 h-fit">
           <a className="absolute rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
-            <h1 className="tracking-wider">Title</h1>
-            <p className="mx-auto">Description</p>
+            <h1 className="tracking-wider p-1 font-semibold">Title</h1>
+            <p className="mx-auto p-2 mb-2 text-sm">Description</p>
             <button
               type="button"
-              className=" items-center bg-gradient-to-r from-cyan-500 to-teal-500 text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-teal-500 dark:focus:ring-blue-800"
+              className="m-2 items-center bg-gradient-to-r from-cyan-500 to-teal-500 text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-teal-500 dark:focus:ring-blue-800"
             >
-              Resume
+              Take A Look at MyCode
             </button>{" "}
           </a>
           <a href="#" className="relative">
