@@ -18,7 +18,7 @@ export default function contact() {
         htmlFor="fullname"
         className="text-black font-light mt-8 dark:text-gray-50"
       >
-        Full name<span className="text-red-500 dark:text-gray-50">*</span>
+        Full name<span className="text-red-500">*</span>
       </label>
       <input
         type="text"
@@ -27,7 +27,7 @@ export default function contact() {
           setFullname(e.target.value);
         }}
         name="fullname"
-        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-black"
+        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-black dark:bg-white rounded-md"
       />
 
       <label
@@ -43,7 +43,7 @@ export default function contact() {
         onChange={(e) => {
           setEmail(e.target.value);
         }}
-        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-black"
+        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-black dark:bg-white rounded-md"
       />
 
       <label
@@ -59,7 +59,7 @@ export default function contact() {
         onChange={(e) => {
           setSubject(e.target.value);
         }}
-        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-black"
+        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-black dark:bg-white rounded-md"
       />
 
       <label
@@ -74,7 +74,7 @@ export default function contact() {
         onChange={(e) => {
           setMessage(e.target.value);
         }}
-        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-black"
+        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-black dark:bg-white rounded-md"
       ></textarea>
 
       <div className="flex flex-row items-center justify-start">
