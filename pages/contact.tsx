@@ -10,7 +10,7 @@ export default function contact() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white dark:bg-gray-900 dark:shadow-gray-50 dark:shadow"
+      className="rounded-lg shadow-xl flex flex-col px-8 py-8 my-2 bg-white dark:bg-gray-900 dark:shadow-gray-50 dark:shadow"
     >
       <h1 className="text-2xl font-bold dark:text-teal-500">Send a message</h1>
 

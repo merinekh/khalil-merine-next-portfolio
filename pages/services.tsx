@@ -23,52 +23,60 @@ export default function services() {
         <p className="dark:text-white text-md py-2 leading-8 text-black-800">
           I deliver <span className="text-teal-500">customized</span>,{" "}
           <span className="text-teal-500">high-quality</span> solutions to meet
-          my clients' specific needs.
+          your <span className="text-teal-500">specific needs.</span>
         </p>
       </div>
-      <div className="images md:flex gap-10 md:gap-3">
-        <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+      <div className="images  md:flex  gap-10 md:gap-5 lg:gap-10">
+        <div className="text-center shadow-lg p-10 md:p-5 rounded-xl my-10  dark:bg-white flex-1">
           <Image alt="Image" src={design} />
-          <h3 className="text-lg font-medium pt-8 pb-2 ">
+          <h3 className="text-lg font-bold pt-8 pb-2 ">
             Front-End Development
           </h3>
           <p className="py-2">
             Creating elegant designs suited for your needs following core design
             theory.
           </p>
-          <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-          <p className="text-black-800 py-1">React & Next</p>
-          <p className="text-black-800 py-1">Typescript & Javascript</p>
-          <p className="text-black-800 py-1">HTML & CSS</p>
-          <p className="text-black-800 py-1">Tailwind</p>
+          <h4 className="py-4 text-teal-600 font-medium">Design Tools I Use</h4>
+          <p className="text-black py-1 font-semibold">React & Next</p>
+          <p className="text-black py-1 font-semibold">
+            Typescript & Javascript
+          </p>
+          <p className="text-black py-1 font-semibold">HTML & CSS</p>
+          <p className="text-black py-1 font-semibold">Tailwind</p>
         </div>
-        <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+        <div className="text-center shadow-lg p-10 md:p-5 rounded-xl my-10 dark:bg-white flex-1">
           <Image alt="Image" src={code} />
-          <h3 className="text-lg font-medium pt-8 pb-2 ">
-            Back-End Development
-          </h3>
+          <h3 className="text-lg font-bold pt-8 pb-2 ">Back-End Development</h3>
           <p className="py-2">
             Do you have an idea for your next great website? Let's make it a
             reality.
           </p>
-          <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-          <p className="text-black-800 py-1">Node.js</p>
-          <p className="text-black-800 py-1">Express & Knex</p>
-          <p className="text-black-800 py-1">MySQL</p>
-          <p className="text-black-800 py-1">Oauth</p>
+          <h4 className="py-4 text-teal-600 font-medium">
+            Development Tools I Use
+          </h4>
+          <p className="text-black py-1 font-semibold">Node.js</p>
+          <p className="text-black py-1 font-semibold">Express & Knex</p>
+          <p className="text-black py-1 font-semibold">MySQL</p>
+          <p className="text-black py-1 font-semibold">Oauth</p>
         </div>
-        <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+        <div className="text-center shadow-lg p-10 md:p-5 rounded-xl my-10 dark:bg-white flex-1">
           <Image className="flex justify-center" alt="" src={consulting} />
-          <h3 className="text-lg font-medium pt-8 pb-2">Data Science</h3>
+          <h3 className="text-lg font-bold pt-8 pb-2">
+            Data Science & Analysis
+          </h3>
           <p className="py-2">
-            Are you interested in feedback for your current project? I can give
-            you tips and tricks to level it up.
+            Need data science project feedback? Get tips and tricks to level up
+            from me.
           </p>
-          <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-          <p className="text-black-800 py-1">Python & R</p>
-          <p className="text-black-800 py-1">SQL</p>
-          <p className="text-black-800 py-1">Scikit & Machine Learning</p>
-          <p className="text-black-800 py-1">Statistic</p>
+          <h4 className="py-4 text-teal-600 font-medium">
+            Data Science Tools I Use
+          </h4>
+          <p className="text-black py-1 font-semibold">Python & R</p>
+          <p className="text-black py-1 font-semibold">SQL</p>
+          <p className="text-black py-1 font-semibold">
+            Scikit-learn, Numpy & Scipy
+          </p>
+          <p className="text-black py-1 font-semibold">Statistics</p>
         </div>
       </div>
     </>

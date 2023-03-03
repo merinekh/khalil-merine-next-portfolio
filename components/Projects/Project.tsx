@@ -13,7 +13,7 @@ export default function Project() {
     <>
       <div className="flex flex-col flex-nowrap gap-10 py-10 md:flex-row md:flex-wrap">
         <div className="relative basis-1/3 flex-1">
-          <a className="absolute h-full rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
+          <div className="absolute h-full rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
             <h1 className="tracking-wider lg:p-1 font-semibold">
               Air Canada Industry Project
             </h1>
@@ -28,8 +28,8 @@ export default function Project() {
             >
               Take A Look at MyCode
             </a>{" "}
-          </a>
-          <a href="#" className="relative">
+          </div>
+          <div className="relative">
             <div className="h-100 flex flex-wrap content-center">
               <Image
                 className="rounded-lg object-cover z-0 w-full h-100"
@@ -38,10 +38,10 @@ export default function Project() {
                 src={web1}
               />
             </div>
-          </a>
+          </div>
         </div>
         <div className="relative basis-1/3 flex-1">
-          <a className="absolute h-full rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
+          <div className="absolute h-full rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
             <h1 className="tracking-wider lg:p-1 font-semibold">DailyFit </h1>
             <p className="mx-2 text-xs lg:p-2 mb-2">
               I developed a single-page web app with React, Sass, and Bootstrap
@@ -58,8 +58,8 @@ export default function Project() {
             >
               Take A Look at MyCode
             </a>{" "}
-          </a>
-          <a href="#" className="relative">
+          </div>
+          <div className="relative">
             <div className="h-100 flex flex-wrap content-center">
               <Image
                 className="rounded-lg object-cover z-0 w-full h-100"
@@ -68,10 +68,10 @@ export default function Project() {
                 src={web2}
               />
             </div>
-          </a>
+          </div>
         </div>
         <div className="relative basis-1/3 flex-1">
-          <a className="absolute h-fit sm:h-full md:h-fit rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
+          <div className="absolute h-fit sm:h-full md:h-fit rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
             <h1 className="tracking-wider lg:p-1 font-semibold">InStock </h1>
             <p className="mx-2 text-xs lg:p-2 mb-2">
               Collaborated with a team to build a full-stack web app for
@@ -86,8 +86,8 @@ export default function Project() {
             >
               Take A Look at MyCode
             </a>{" "}
-          </a>
-          <a href="#" className="relative">
+          </div>
+          <div className="relative">
             <div className="h-100 flex flex-wrap content-center">
               <Image
                 className="rounded-lg object-cover z-0 w-full h-100"
@@ -96,10 +96,10 @@ export default function Project() {
                 src={web3}
               />
             </div>
-          </a>
+          </div>
         </div>
         <div className="relative basis-1/3 flex-1">
-          <a className="absolute h-fit sm:h-full md:h-fit rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
+          <div className="absolute h-fit sm:h-full md:h-fit rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
             <h1 className="tracking-wider lg:p-1 font-semibold">Travel Site</h1>
             <p className="mx-2 text-xs lg:p-2 mb-2">
               Built the front-end for a travel agency, creating a visually
@@ -113,8 +113,8 @@ export default function Project() {
             >
               Take A Look at MyCode
             </a>{" "}
-          </a>
-          <a href="#" className="relative">
+          </div>
+          <div className="relative">
             <div className="h-100 flex flex-wrap content-center">
               <Image
                 className="rounded-lg object-cover z-0 w-full h-100"
@@ -123,10 +123,10 @@ export default function Project() {
                 src={web6}
               />
             </div>
-          </a>
+          </div>
         </div>
         <div className="relative basis-1/3 flex-1">
-          <a className="absolute h-full rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
+          <div className="absolute h-full rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
             <h1 className="tracking-wider lg:p-1 font-semibold">BrainFlix </h1>
             <p className="mx-2 text-xs lg:p-2 mb-2">
               I built a single-page clone of YouTube with server-side
@@ -143,8 +143,8 @@ export default function Project() {
             >
               Take A Look at MyCode
             </a>{" "}
-          </a>
-          <a href="#" className="relative">
+          </div>
+          <div className="relative">
             <div className="h-100 flex flex-wrap content-center">
               <Image
                 className="rounded-lg object-cover z-0 w-full h-100"
@@ -153,10 +153,10 @@ export default function Project() {
                 src={web5}
               />
             </div>
-          </a>
+          </div>
         </div>
         <div className="relative basis-1/3 flex-1">
-          <a className="absolute h-full rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
+          <div className="absolute h-full rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
             <h1 className="tracking-wider lg:p-1 font-semibold">Bandsite </h1>
             <p className="mx-2 text-xs lg:p-2 mb-2">
               I built the front-end of a site similar to Ticketmaster, allowing
@@ -172,8 +172,8 @@ export default function Project() {
             >
               Take A Look at MyCode
             </a>{" "}
-          </a>
-          <a href="#" className="relative">
+          </div>
+          <div className="relative">
             <div className="h-100 flex flex-wrap content-center">
               <Image
                 className="rounded-lg object-cover z-0 w-full h-100"
@@ -182,7 +182,7 @@ export default function Project() {
                 src={web4}
               />
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </>
