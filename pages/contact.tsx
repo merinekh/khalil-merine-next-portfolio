@@ -1,12 +1,26 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 export default function contact() {
   const [fullname, setFullname] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
+  const form: any = useRef();
+  async function handleSubmit(e: any) {
+    e.preventDefault();
+    const formData = {};
+    // Array.from(e.currentTarget.elements).forEach((field: any) => {
+    //   if (!field.name) return;
+    //   formData[field.name] = field.value;
+    // });
+    fetch("/api/mail", {
+      method: "post",
+      body: JSON.stringify(formData),
+    });
+    console.log(formData);
+  }
 
-  const handleSubmit = () => {};
   return (
     <form
       onSubmit={handleSubmit}
