@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
-export default function contact() {
+export default function Contact() {
   const [fullname, setFullname] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -10,7 +10,7 @@ export default function contact() {
   async function handleSubmit(e: any) {
     e.preventDefault();
 
-    console.log(fullname, form);
+    // console.log(fullname, form);
     emailjs
       .sendForm(
         "service_idsrvvs",
@@ -40,7 +40,7 @@ export default function contact() {
         htmlFor="fullname"
         className="text-black font-light mt-8 dark:text-gray-50"
       >
-        Full name<span className="text-red-500">*</span>
+        Full name<span className="text-red-500">{"*"}</span>
       </label>
       <input
         name="fullname"
@@ -56,7 +56,7 @@ export default function contact() {
         htmlFor="email"
         className="text-black font-light mt-4 dark:text-gray-50"
       >
-        E-mail<span className="text-red-500">*</span>
+        E-mail<span className="text-red-500">{"*"}</span>
       </label>
       <input
         type="email"
@@ -72,7 +72,7 @@ export default function contact() {
         htmlFor="subject"
         className="text-black font-light mt-4 dark:text-gray-50"
       >
-        Subject<span className="text-red-500">*</span>
+        Subject<span className="text-red-500">{"*"}</span>
       </label>
       <input
         type="text"
@@ -88,7 +88,7 @@ export default function contact() {
         htmlFor="message"
         className="text-black font-light mt-4 dark:text-gray-50"
       >
-        Message<span className="text-red-500">*</span>
+        Message<span className="text-red-500">{"*"}</span>
       </label>
       <textarea
         name="message"

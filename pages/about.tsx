@@ -15,8 +15,10 @@ function about() {
     "Git",
   ];
 
-  const stacks = techStack.map((e) => (
-    <span className="text-teal-500">{e} </span>
+  const stacks = techStack.map((e, i) => (
+    <span key={i} className="text-teal-500">
+      {e}{" "}
+    </span>
   ));
   return (
     <div>

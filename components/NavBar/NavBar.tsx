@@ -41,13 +41,13 @@ function NavBar({ darkMode, setdarkMode, isMenuOpen, handleMenuToggle }: any) {
             </li>
           </ul>
 
-          <a
+          <Link
             href="https://drive.google.com/drive/folders/1EVoKLc3GOmOts85S3rcYxmfgGDTLQV88?usp=sharing"
             target="_blank"
             className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-teal-500 dark:focus:ring-blue-800"
           >
             Resume
-          </a>
+          </Link>
         </div>
         <div
           className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
