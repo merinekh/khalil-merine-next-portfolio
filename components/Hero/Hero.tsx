@@ -8,7 +8,7 @@ export default function Hero() {
       <h2 className="text-5xl py-2 text-teal-500 font-medium md:text-6xl">
         Khalil Merine
       </h2>
-      <div className="main-image relative flex-col mx-auto bg-gradient-to-b from-teal-500 rounded-full w-100 h-80 mt-2 overflow-hidden md:h-96 md:w-96">
+      <div className="main-image relative flex-col mx-auto bg-gradient-to-b from-teal-500 rounded-full w-100 h-80 mt-2 overflow-hidden sm:h-96 sm:w-96">
         <Image
           className="w-80"
           alt="Image"
@@ -24,6 +24,7 @@ export default function Hero() {
         Welcome to my portfolio, where software engineering and data science
         unite! As an ex-chemical engineer turned full-stack developer, I{"'"}m
         passionate about leveraging technology to solve complex problems. <br />{" "}
+        <br className="hidden sm:flex" />{" "}
         <span className="text-teal-500 font-semibold">
           {" "}
           Let{"'"}s build something great together!
