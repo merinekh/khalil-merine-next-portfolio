@@ -15,8 +15,10 @@ function about() {
     "Git",
   ];
 
-  const stacks = techStack.map((e) => (
-    <span className="text-teal-500">{e} </span>
+  const stacks = techStack.map((e, i) => (
+    <span key={i} className="text-teal-500">
+      {e}{" "}
+    </span>
   ));
   return (
     <div>
@@ -41,7 +43,7 @@ function about() {
               <span className="text-teal-500">SQL</span> for data analysis. I
               honed my skills at{" "}
               <span className="text-teal-500">
-                Brainstation's Software Engineering
+                Brainstation{"'"}s Software Engineering
               </span>
               {" bootcamp "}
               and now have experience in{" "}
