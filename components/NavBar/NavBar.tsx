@@ -6,7 +6,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 function NavBar({ darkMode, setdarkMode, isMenuOpen, handleMenuToggle }: any) {
   const router = useRouter();
   return (
-    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+    <nav className="bg-white border-gray-200  py-2.5   rounded dark:bg-gray-900">
       <div className="container flex flex-wrap items-center justify-between mx-auto md:flex-nowrap">
         <div className="flex justify-between w-full md:order-2 md:w-40">
           <button

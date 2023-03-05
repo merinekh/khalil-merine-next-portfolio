@@ -12,7 +12,7 @@ export default function Footer() {
     <div className="lg:py-4">
       <footer className="p-2 bg-white  dark:bg-gray-900 ">
         <a href="/" className="flex items-center ">
-          <h1 className="text-xl font-burtons dark:text-white lg:text-3xl">
+          <h1 className="text-xl font-burtons dark:text-white lg:text-2xl">
             developedbyKM
           </h1>
         </a>

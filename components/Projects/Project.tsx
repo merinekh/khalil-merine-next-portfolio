@@ -71,7 +71,7 @@ export default function Project() {
           </div>
         </div>
         <div className="relative basis-1/3 flex-1">
-          <div className="absolute h-fit sm:h-full md:h-fit rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
+          <div className="absolute h-fit sm:h-full md:h-fit xl:h-full rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
             <h1 className="tracking-wider lg:p-1 font-semibold">InStock </h1>
             <p className="mx-2 text-xs lg:p-2 mb-2">
               Collaborated with a team to build a full-stack web app for
@@ -99,7 +99,7 @@ export default function Project() {
           </div>
         </div>
         <div className="relative basis-1/3 flex-1">
-          <div className="absolute h-fit sm:h-full md:h-fit rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
+          <div className="absolute h-fit sm:h-full md:h-fit xl:h-full rounded-lg inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
             <h1 className="tracking-wider lg:p-1 font-semibold">Travel Site</h1>
             <p className="mx-2 text-xs lg:p-2 mb-2">
               Built the front-end for a travel agency, creating a visually
