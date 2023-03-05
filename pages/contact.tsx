@@ -108,6 +108,7 @@ export default function contact() {
         </button>
         <a
           href="https://calendly.com/merinekh/30min"
+          target="_blank"
           className="px-10 mt-8 mx-4 py-2 bg-gradient-to-r from-cyan-500 to-teal-500 text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg flex flex-row items-center"
         >
           Book A Call!
