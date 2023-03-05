@@ -32,8 +32,8 @@ function about() {
               I am a <span className="text-teal-500">Full-stack</span> developer
               skilled in creating dynamic interfaces using{" "}
               <span className="text-teal-500">Typescript</span>,{" "}
-              <span className="text-teal-500">Node.js</span>,{" "}
-              <span className="text-teal-500">Express</span> &{" "}
+              <span className="text-teal-500">React</span>,{" "}
+              <span className="text-teal-500">Node.js</span> &{" "}
               <span className="text-teal-500">MySQL</span>. My journey began
               with <span className="text-teal-500">Chemical Engineering</span>{" "}
               studies where I learned{" "}
