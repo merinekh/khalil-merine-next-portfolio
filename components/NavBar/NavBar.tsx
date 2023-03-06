@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsFillMoonStarsFill, BsSunFill } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 function NavBar({ darkMode, setdarkMode, isMenuOpen, handleMenuToggle }: any) {
   const router = useRouter();
@@ -33,10 +34,17 @@ function NavBar({ darkMode, setdarkMode, isMenuOpen, handleMenuToggle }: any) {
           </button>
           <ul className="flex items-center">
             <li>
-              <BsFillMoonStarsFill
-                className="cursor-pointer te dark:text-white"
-                onClick={() => setdarkMode(!darkMode)}
-              />
+              {!darkMode ? (
+                <BsFillMoonStarsFill
+                  className="cursor-pointer te dark:text-white"
+                  onClick={() => setdarkMode(!darkMode)}
+                />
+              ) : (
+                <BsSunFill
+                  className="cursor-pointer te dark:text-white"
+                  onClick={() => setdarkMode(!darkMode)}
+                />
+              )}
               {/* {!darkMode ? "En" : "Fr"} */}
             </li>
           </ul>
