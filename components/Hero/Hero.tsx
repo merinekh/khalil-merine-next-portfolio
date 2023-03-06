@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import deved from "../../public/dev-ed-wave.png";
+import photo from "../../public/khalil-photo.png";
 
 export default function Hero() {
   return (
@@ -12,7 +12,7 @@ export default function Hero() {
         <Image
           className="w-80"
           alt="Image"
-          src={deved}
+          src={photo}
           layout="fill"
           objectFit="cover"
         />

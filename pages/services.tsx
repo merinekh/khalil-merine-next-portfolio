@@ -27,7 +27,7 @@ export default function services() {
         </p>
       </div>
       <div className="images  md:flex  gap-10 md:gap-5 lg:gap-10">
-        <div className="text-center shadow-lg p-10 md:p-5 rounded-xl my-10  dark:bg-white flex-1">
+        <div className="text-center shadow-lg p-10 md:p-5 rounded-xl my-10  hover:scale-105 ease-in duration-300   dark:bg-white flex-1">
           <Image alt="Image" src={design} />
           <h3 className="text-lg font-bold pt-8 pb-2 ">
             Front-End Development
@@ -44,7 +44,7 @@ export default function services() {
           <p className="text-black py-1 font-semibold">HTML & CSS</p>
           <p className="text-black py-1 font-semibold">Tailwind</p>
         </div>
-        <div className="text-center shadow-lg p-10 md:p-5 rounded-xl my-10 dark:bg-white flex-1">
+        <div className="text-center shadow-lg p-10 md:p-5 rounded-xl my-10  hover:scale-105 ease-in duration-300  dark:bg-white flex-1">
           <Image alt="Image" src={code} />
           <h3 className="text-lg font-bold pt-8 pb-2 ">Back-End Development</h3>
           <p className="py-2">
@@ -59,7 +59,7 @@ export default function services() {
           <p className="text-black py-1 font-semibold">MySQL</p>
           <p className="text-black py-1 font-semibold">Oauth</p>
         </div>
-        <div className="text-center shadow-lg p-10 md:p-5 rounded-xl my-10 dark:bg-white flex-1">
+        <div className="text-center shadow-lg p-10 md:p-5 rounded-xl my-10  hover:scale-105 ease-in duration-300  dark:bg-white flex-1">
           <Image className="flex justify-center" alt="" src={consulting} />
           <h3 className="text-lg font-bold pt-8 pb-2">
             Data Science & Analysis
