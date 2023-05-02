@@ -19,7 +19,6 @@ export default function App({ Component, pageProps, router }: AppProps) {
     const handleRouteChange = (url: any) => {
       pageview(url);
     };
-    const router = useRouter();
 
     //When the component is mounted, subscribe to router changes
     //and log those page views

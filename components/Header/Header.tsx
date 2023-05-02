@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import NavBar from "../NavBar/NavBar";
+import { event } from "@/lib/ga";
 
 function Header({
   darkMode,
@@ -19,6 +20,14 @@ function Header({
         </Link>
       </div>{" "}
       <NavBar
+        onClick={() => {
+          event({
+            action: "search",
+            params: {
+              search_term: "temps",
+            },
+          });
+        }}
         darkMode={darkMode}
         setdarkMode={setdarkMode}
         isMenuOpen={isMenuOpen}
