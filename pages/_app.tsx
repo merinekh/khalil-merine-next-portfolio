@@ -6,10 +6,31 @@ import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
+import { pageview } from "../lib/ga";
 
 export default function App({ Component, pageProps, router }: AppProps) {
   const [darkMode, setdarkMode] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // Google Analytics
+  useEffect(() => {
+    const handleRouteChange = (url: any) => {
+      pageview(url);
+    };
+    const router = useRouter();
+
+    //When the component is mounted, subscribe to router changes
+    //and log those page views
+    router.events.on("routeChangeComplete", handleRouteChange);
+
+    // If the component is unmounted, unsubscribe
+    // from the event with the `off` method
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
