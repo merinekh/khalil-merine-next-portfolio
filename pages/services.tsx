@@ -37,12 +37,12 @@ export default function services() {
             theory.
           </p>
           <h4 className="py-4 text-teal-600 font-medium">Design Tools I Use</h4>
-          <p className="text-black py-1 font-semibold">React & Next</p>
+          <p className="text-black py-1 font-semibold">React & Next.js</p>
           <p className="text-black py-1 font-semibold">
             Typescript & Javascript
           </p>
           <p className="text-black py-1 font-semibold">HTML & CSS</p>
-          <p className="text-black py-1 font-semibold">Tailwind</p>
+          <p className="text-black py-1 font-semibold">Bootstrap & Tailwind</p>
         </div>
         <div className="text-center shadow-lg p-10 md:p-5 rounded-xl my-10  hover:scale-105 ease-in duration-300  dark:bg-white flex-1">
           <Image alt="Image" src={code} />
@@ -54,10 +54,10 @@ export default function services() {
           <h4 className="py-4 text-teal-600 font-medium">
             Development Tools I Use
           </h4>
-          <p className="text-black py-1 font-semibold">Node.js</p>
-          <p className="text-black py-1 font-semibold">Express & Knex</p>
-          <p className="text-black py-1 font-semibold">MySQL</p>
-          <p className="text-black py-1 font-semibold">Oauth</p>
+          <p className="text-black py-1 font-semibold">Node.js & Python</p>
+          <p className="text-black py-1 font-semibold">Express & FastAPI</p>
+          <p className="text-black py-1 font-semibold">MySQL & Modongo</p>
+          <p className="text-black py-1 font-semibold">Pydantic & Oauth</p>
         </div>
         <div className="text-center shadow-lg p-10 md:p-5 rounded-xl my-10  hover:scale-105 ease-in duration-300  dark:bg-white flex-1">
           <Image className="flex justify-center" alt="" src={consulting} />

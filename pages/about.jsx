@@ -3,23 +3,6 @@ import Link from "next/link";
 import React from "react";
 
 function about() {
-  const techStack = [
-    "JavaScript",
-    "React",
-    "Node",
-    "Express",
-    "MySQL",
-    "Agile Development",
-    "OAuth",
-    "Heroku",
-    "Git",
-  ];
-
-  const stacks = techStack.map((e, i) => (
-    <span key={i} className="text-teal-500">
-      {e}{" "}
-    </span>
-  ));
   return (
     <div>
       {" "}
@@ -36,9 +19,8 @@ function about() {
               <span className="text-teal-500"> strong focus </span> on creating
               dynamic interfaces using
               <span className="text-teal-500"> React</span>,
-              <span className="text-teal-500"> Python</span>,
-              <span className="text-teal-500"> MySQL</span> &
-              <span className="text-teal-500"> Mongodb</span>. Currently, I work
+              <span className="text-teal-500"> Python</span> &
+              <span className="text-teal-500"> MySQL</span>. Currently, I work
               as a{" "}
               <span className="text-teal-500">
                 Full-stack Developer at Softvoyage
@@ -51,10 +33,9 @@ function about() {
               <br />
               My journey began with a background in
               <span className="text-teal-500"> Chemical Engineering</span> and
-              expanded as I delved <span className="text-teal-500">into</span>{" "}
-              the world of
-              <span className="text-teal-500"> Software Development</span>. I
-              excel in enhancing user experiences through
+              expanded <span className="text-teal-500">into</span> the world of
+              <span className="text-teal-500"> Software Development</span>.{" "}
+              <br />I excel in enhancing user experiences through
               <span className="text-teal-500"> Next.js</span> and have
               successfully integrated data from legacy systems using{" "}
               <span className="text-teal-500"> FastAPI</span> and{" "}
@@ -67,7 +48,11 @@ function about() {
                 Building Exceptional Products
               </span>
               , <span className="text-teal-500">Solving Complex Problems</span>,
-              and leveraging data-driven insights.
+              and{" "}
+              <span className="text-teal-500">
+                Leveraging Data-Driven Insights
+              </span>
+              .
               <br />
               <br />I{" "}
               <span className="text-teal-500">
