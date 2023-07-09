@@ -21,7 +21,8 @@ export default function services() {
           to deliver high-quality solutions.
         </p>
         <p className="dark:text-white text-md py-2 leading-8 text-black-800">
-          I deliver <span className="text-teal-500">customized</span>,{" "}
+          With a focus on customization, I deliver{" "}
+          <span className="text-teal-500">customized</span>,{" "}
           <span className="text-teal-500">high-quality</span> solutions to meet
           your <span className="text-teal-500">specific needs.</span>
         </p>
