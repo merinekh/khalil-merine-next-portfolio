@@ -31,28 +31,10 @@ function about() {
             </p>
             <h2 className="py-4 text-black dark:text-white">Who I Am</h2>
             <p className="py-2 text-black dark:text-white">
-              I am a <span className="text-teal-500">Full-stack</span> developer
-              skilled in creating dynamic interfaces using{" "}
-              <span className="text-teal-500">Typescript</span>,{" "}
-              <span className="text-teal-500">React</span>,{" "}
-              <span className="text-teal-500">Node.js</span> &{" "}
-              <span className="text-teal-500">MySQL</span>. My journey began
-              with <span className="text-teal-500">Chemical Engineering</span>{" "}
-              studies where I learned{" "}
-              <span className="text-teal-500">Python</span> &{" "}
-              <span className="text-teal-500">SQL</span> for data analysis. I
-              honed my skills at{" "}
-              <span className="text-teal-500">
-                Brainstation{"'"}s Software Engineering
-              </span>
-              {" bootcamp "}
-              and now have experience in{" "}
-              <span className="text-teal-500">JavaScript</span> ,{" "}
-              <span className="text-teal-500">Agile Development</span>,{" "}
-              <span className="text-teal-500">Git</span>,{" "}
-              <span className="text-teal-500">OAuth</span>
-              {" & "}
-              <span className="text-teal-500">Heroku</span>
+              {}I am Khalil Merine, a Full-stack developer with a strong focus
+              on creating dynamic interfaces using React, Node.js, and MySQL. My
+              journey began with a background in Chemical Engineering and
+              expanded as I delved into the world of software development.
             </p>
             <p className="py-2 text-black dark:text-white">
               With a collaborative and client-focused approach, I am{" "}

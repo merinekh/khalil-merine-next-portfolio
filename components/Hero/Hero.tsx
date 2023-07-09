@@ -22,12 +22,14 @@ export default function Hero() {
       </h3>
       <p className="text-md py-5 leading-8 text-black-800 md:text-xl max-w-lg mx-auto dark:text-white">
         Welcome to my portfolio, where software engineering and data science
-        unite! As an ex-chemical engineer turned full-stack developer, I{"'"}m
-        passionate about leveraging technology to solve complex problems. <br />{" "}
+        unite! As a dedicated developer, I have transformed my background in
+        chemical engineering into a thriving career as a full-stack developer. I
+        am deeply passionate about utilizing technology to tackle intricate
+        challenges and create innovative solutions. <br />{" "}
         <br className="hidden sm:flex" />{" "}
         <span className="text-teal-500 font-semibold">
           {" "}
-          Let{"'"}s build something great together!
+          Let{"'"}s collaborate and building something remarkable together!
         </span>
       </p>
     </div>
