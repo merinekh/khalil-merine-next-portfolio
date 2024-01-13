@@ -2,79 +2,66 @@ import TechStack from "@/components/TechStack/TechStack";
 import Link from "next/link";
 import React from "react";
 
-function about() {
+function About() {
   return (
     <div>
-      {" "}
       <div id="about" className="w-full p-2 flex items-center py-4">
-        <div className=" ">
-          <div className="col-span-2">
-            <p className="text-3xl py-1 text-black font-semibold dark:text-white ">
-              About
-            </p>
-            <h2 className="py-4 text-black dark:text-white">Who I Am</h2>
-            <p className="py-2 text-black dark:text-white">
-              {}I am Khalil Merine, a{" "}
-              <span className="text-teal-500">Developer</span> with a
-              <span className="text-teal-500"> strong focus </span> on creating
-              dynamic interfaces using
-              <span className="text-teal-500"> React</span>,
-              <span className="text-teal-500"> Python</span> &
-              <span className="text-teal-500"> MySQL</span>. Currently, I work
-              as a{" "}
-              <span className="text-teal-500">
-                Full-stack Developer at Softvoyage
-              </span>
-              , gaining valuable experience in{" "}
-              <span className="text-teal-500">Python</span>,
-              <span className="text-teal-500"> MongoDB</span>, and
-              <span className="text-teal-500"> FastAPI</span>.
-              <br />
-              <br />
-              My journey began with a background in
-              <span className="text-teal-500"> Chemical Engineering</span> and
-              expanded <span className="text-teal-500">into</span> the world of
-              <span className="text-teal-500"> Software Development</span>.{" "}
-              <br />I excel in enhancing user experiences through
-              <span className="text-teal-500"> Next.js</span> and have
-              successfully integrated data from legacy systems using{" "}
-              <span className="text-teal-500"> FastAPI</span> and{" "}
-              <span className="text-teal-500"> Pydantic</span>.
-            </p>
-            <p className="py-2 text-black dark:text-white">
-              With a collaborative and client-focused approach, I am{" "}
-              <span className="text-teal-500">Passionate</span> about{" "}
-              <span className="text-teal-500">
-                Building Exceptional Products
-              </span>
-              , <span className="text-teal-500">Solving Complex Problems</span>,
-              and{" "}
-              <span className="text-teal-500">
-                Leveraging Data-Driven Insights
-              </span>
-              .
-              <br />
-              <br />I{" "}
-              <span className="text-teal-500">
-                Continually Seek New Technologies
-              </span>{" "}
-              to improve my craft and{" "}
-              <span className="text-teal-500">
-                Deliver Innovative Solutions
-              </span>
-              .<br />
-            </p>
-            <Link href="/portfolio">
-              <p className="py-2 text-black dark:text-white underline cursor-pointer">
-                Check out some of my latest projects.
-              </p>
+        <div className="col-span-2">
+          <p className="text-3xl py-1 text-black font-semibold dark:text-white">
+            About Me
+          </p>
+          <h2 className="py-4 text-black dark:text-white">Who I Am</h2>
+          <p className="py-2 text-black dark:text-white">
+            Hi, I'm Khalil Merine, a{" "}
+            <span className="text-teal-500">Full-Stack Developer</span> with a
+            focus on creating dynamic interfaces using{" "}
+            <span className="text-teal-500">React</span>,{" "}
+            <span className="text-teal-500">Python</span>, and{" "}
+            <span className="text-teal-500">MySQL</span>. Currently, I work at{" "}
+            <span className="text-teal-500">Softvoyage</span>, specializing in{" "}
+            <span className="text-teal-500">React</span>,{" "}
+            <span className="text-teal-500">Next.js</span>,{" "}
+            <span className="text-teal-500">Python</span>,{" "}
+            <span className="text-teal-500">FastAPI</span>,{" "}
+            <span className="text-teal-500">Docker</span>, and{" "}
+            <span className="text-teal-500">Linux</span>.
+          </p>
+          <p className="py-2 text-black dark:text-white">
+            My journey began with a background in{" "}
+            <span className="text-teal-500">Chemical Engineering</span> and
+            expanded into the world of{" "}
+            <span className="text-teal-500">Software Development</span>. I excel
+            in enhancing user experiences through{" "}
+            <span className="text-teal-500">Next.js</span> and have successfully
+            integrated data from legacy systems using{" "}
+            <span className="text-teal-500">FastAPI</span> and{" "}
+            <span className="text-teal-500">Pydantic</span>.
+          </p>
+          <p className="py-2 text-black dark:text-white">
+            My expertise lies in crafting bespoke components, eliminating
+            unnecessary libraries, and customizing solutions for optimal
+            performance. I actively contribute to both front-end and back-end
+            development, creating models for tables imported from ODBC systems.
+            Proficient in connecting to APIs and manipulating data, I contribute
+            to the development of robust projects.
+          </p>
+          <p className="py-2 text-black dark:text-white">
+            Passionate about software development, I am open to opportunities
+            within innovative teams. Feel free to reach out for potential
+            collaborations.
+          </p>
+          <p className="py-2 text-black dark:text-white">
+            Explore my{" "}
+            <Link className="text-teal-500 underline" href="/portfolio">
+              Portfolio
             </Link>
-          </div>
-          <TechStack />
+            .{" "}
+          </p>
         </div>
       </div>
+      <TechStack />
     </div>
   );
 }
 
-export default about;
+export default About;

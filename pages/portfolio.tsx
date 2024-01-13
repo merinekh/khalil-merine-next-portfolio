@@ -39,6 +39,7 @@ export default function portfolio() {
             In my recent role at Softvoyage, I contributed significantly to
             front-end development, crafted personalized components, resolved
             bugs, and led the creation of server interfaces using{" "}
+            <span className="text-teal-500">Python</span> &{" "}
             <span className="text-teal-500">FastAPI</span>. I'm proficient in{" "}
             <span className="text-teal-500">Docker</span> and have successfully
             set up and configured various components for seamless deployment.
