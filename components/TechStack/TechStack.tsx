@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import frontEnd from "../../public/front-end-stack.png";
 import backEnd from "../../public/back-end-stack.png";
-import dataScience from "../../public/data-science-stack.png";
 import colab from "../../public/collab-stack.png";
 
 export default function TechStack() {
