@@ -49,7 +49,7 @@ export default function services() {
           <Image alt="Image" src={code} />
           <h3 className="text-lg font-bold pt-8 pb-2 ">Back-End Development</h3>
           <p className="py-2">
-            Do you have an idea for your next great website? Let{"'"}s make it a
+            Do you have an idea for your next great website? Let&#39;s make it a
             reality.
           </p>
           <h4 className="py-4 text-teal-600 font-medium">
