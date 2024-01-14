@@ -12,7 +12,7 @@ function About() {
           </p>
           <h2 className="py-4 text-black dark:text-white">Who I Am</h2>
           <p className="py-2 text-black dark:text-white">
-            Hi, I'm Khalil Merine, a{" "}
+            Hi, I&#39;m Khalil Merine, a{" "}
             <span className="text-teal-500">Full-Stack Developer</span> with a
             focus on creating dynamic interfaces using{" "}
             <span className="text-teal-500">React</span>,{" "}

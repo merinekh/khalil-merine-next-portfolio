@@ -28,7 +28,7 @@ export default function Hero() {
         solutions. <br /> <br className="hidden sm:flex" />{" "}
         <span className="text-teal-500 font-semibold">
           {" "}
-          Let{"'"}s collaborate and building something remarkable together!
+          Let&#39;s collaborate and building something remarkable together!
         </span>
       </p>
     </div>
